@@ -12,4 +12,6 @@ I had just build a desktop that was quite powerful and decided that when I was n
 - I learned docker containers aren't the way to go for true security, as they share the same kernel as the host. Thats when i learned about Proxmox Virtual Environment.
 
 
+## My Network Setup.
 
+![My Proxmox Setup](./Proxmox.drawio.png)
