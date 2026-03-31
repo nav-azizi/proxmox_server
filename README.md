@@ -15,3 +15,14 @@ I had just build a desktop that was quite powerful and decided that when I was n
 ## My Network Setup.
 
 ![My Proxmox Setup](./Proxmox.drawio.png)
+
+## Security
+
+### Crowdsec
+I chose Crowdsec due to the fact that it provided a nice dashboard and is well documented. With Crowdsec I am able to have log parsers for Caddy to monitor for DDoS and DoS and probing attacks. Then I am able to have bruteforce log parsers for each service. 
+
+Another key point that drew me to Crowdsec was that its community driven, if someone with a server gets hit by a malicous user, everyone on the Crowdsec network bans that IP address.
+
+
+### VLANs
+
