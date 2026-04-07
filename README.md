@@ -23,6 +23,12 @@ I chose Crowdsec due to the fact that it provided a nice dashboard and is well d
 
 Another key point that drew me to Crowdsec was that its community driven, if someone with a server gets hit by a malicous user, everyone on the Crowdsec network bans that IP address.
 
+![]()
+![Crowdsec Attack Map](./crowdsec_attack_map.png)
+
 
 ### VLANs
+I segmented each VLAN to reduce the blast radius of an attack on the server. They are segmented according to WAN exposure. The exposed services are all on one VLAN to prevent access to other sensitive services.
+
+### Docker Containers and Virtual Machines
 
